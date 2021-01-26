@@ -1,0 +1,40 @@
+body {
+  margin:0px;
+  padding:0px;
+  font-family:"Open Sans",sans-serif;
+  transition:filter 300ms ea se-in-out;
+}
+.header {
+  padding:100px 200px;
+  background:navy;
+  text-align:center;
+}
+.header h1 {
+  font-size:45px;
+  margin-bottom:20px;
+  color:#fff;
+}
+.header button {
+  border:none;
+  outline:none;
+  padding:10px 20px;
+  border-radius:30px;
+  font-size:15px;
+  font-weight:600;
+  color:navy;
+  background:#fff;
+  cursor:pointer;
+}
+.content {
+  padding:30px 100px;
+  font-size:20px;
+  color:#111;
+  background:#eee;
+}
+body.dark-mode {
+  filter:invert(1) hue-rotate(200deg) brightness(0.9);
+}
+
+h1 {
+    font-family: Monaco
+}
